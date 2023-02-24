@@ -8,6 +8,8 @@ title: Puzzles
 
 {% include_relative puzzles/logic/marked_prisoners.md id="marked_prisoners"%}
 
+{% include_relative puzzles/logic/3_switch_lightbulb.md id="3_switch_lightbulb" %}
+
 {% include_relative puzzles/logic/3_prisoner_line.md id="3_prisoner_line" %}
 
 {% include_relative puzzles/logic/tall_and_short.md id="tall_and_short" %}
