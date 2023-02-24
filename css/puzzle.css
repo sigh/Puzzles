@@ -1,0 +1,49 @@
+label {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  font-weight: bold;
+  cursor: pointer;
+  background-color: slategray;
+
+  border-radius: 2px 2px 0 0;
+}
+
+label::before {
+  content: "Solution";
+  padding: 1em;
+}
+
+label::after {
+  content: "\276F";
+  padding: 1em;
+  text-align: center;
+  transition: all .35s;
+}
+
+input.solution {
+  opacity: 0;
+  position: absolute;
+}
+
+input.solution+div {
+  padding-left: 1em;
+  padding-top: 0;
+  margin-bottom: 1em;
+
+  border: 1px solid slategray;
+  border-radius: 0 0 2px 2px;
+
+  max-height: 0px;
+  overflow: hidden;
+
+  transition: all .5s;
+}
+
+input.solution:checked+div {
+  padding-top: 1em;
+  max-height: 10000px;
+  overflow: scroll;
+}

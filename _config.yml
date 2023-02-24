@@ -2,3 +2,4 @@ title: Puzzles
 
 kramdown:
   toc_levels: 1..1
+  parse_block_html: true

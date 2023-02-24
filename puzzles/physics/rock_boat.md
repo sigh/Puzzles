@@ -5,7 +5,11 @@ throw the rock overboard, and it sinks to the bottom of the pool.
 
 What happens to the water level?
 
-## Solution
+{::nomarkdown}
+<label for="{{ include.id }}"></label>
+<input type="checkbox" class="solution" id="{{ include.id }}">
+{:/}
+<div>
 
 The water level goes down.
 
@@ -20,3 +24,5 @@ less than the amount of water displaced by its mass.
 
 Therefore less water is displaced after the rock is thrown overboard, and hence
 the water level goes down.
+
+</div>

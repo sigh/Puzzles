@@ -13,7 +13,11 @@ prisoner at the front correctly names the colour of his hat.
 
 What was the colour of the hat on the prisoner at the front?
 
-## Solution
+{::nomarkdown}
+<label for="{{ include.id }}"></label>
+<input type="checkbox" class="solution" id="{{ include.id }}">
+{:/}
+<div>
 
 The prisoner at the front had a red hat.
 
@@ -29,3 +33,5 @@ The middle prisoner can only see the colour of the front prisoner's hat. If it
 was blue then he could deduce that his own hat colour was red. However, he does
 not speak. This means that the colour of the hat on the front prisoner must be
 red.
+
+</div>
