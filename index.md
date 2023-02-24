@@ -10,7 +10,7 @@ title: Puzzles
 
 {% include_relative puzzles/logic/3_prisoner_line.md id="3_prisoner_line" %}
 
-<!-- {% include_relative puzzles/logic/tall_and_short.md id="tall_and_short" %} -->
+{% include_relative puzzles/logic/tall_and_short.md id="tall_and_short" %}
 
 {% include_relative puzzles/physics/rock_boat.md id="rock_boat" %}
 
