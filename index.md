@@ -14,6 +14,10 @@ title: Puzzles
 
 {% include_relative puzzles/logic/tall_and_short.md id="tall_and_short" %}
 
+{% include_relative puzzles/truth/true_false_gods.md id="true_false_gods" %}
+
+{% include_relative puzzles/math/squashed_bee.md id="squashed_bee" %}
+
 {% include_relative puzzles/physics/rock_boat.md id="rock_boat" %}
 
 {% include_relative puzzles/physics/water_bottle.md id="water_bottle" %}

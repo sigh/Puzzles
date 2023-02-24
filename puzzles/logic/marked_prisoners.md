@@ -89,6 +89,8 @@ When the informer speaks, the fact that there is at least 1 `X` marked
 prisoner becomes common knowledge. Importantly, now everyone knows that
 everyone knows that there is at least `X` marked prisoner. And everyone
 knows that everyone knows that everyone knows... and so on indefinitely.
-Sufficiently deep in the meta-...-meta-knowledge, this adds new information.
+Sufficiently deep in this meta-knowledge, this adds new information. This is known as [Common knowledge](https://en.wikipedia.org/wiki/Common_knowledge).
 
 </div>
+
+Made famous as [xkcd's Blue Eyes puzzle](https://xkcd.com/blue_eyes.html) ([solution](https://xkcd.com/solution.html)).
