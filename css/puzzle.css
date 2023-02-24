@@ -13,12 +13,12 @@ label {
 
 label::before {
   content: "Solution";
-  padding: 1em;
+  padding: 0.5em;
 }
 
 label::after {
   content: "\276F";
-  padding: 1em;
+  padding: 0.5em;
   text-align: center;
   transition: all .35s;
 }
