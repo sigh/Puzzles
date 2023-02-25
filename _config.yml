@@ -1,5 +1,5 @@
 title: Puzzles
 
 kramdown:
-  toc_levels: 1..1
+  toc_levels: 1..2
   parse_block_html: true
