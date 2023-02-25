@@ -26,11 +26,15 @@ title: Puzzles
 
 {% include_relative puzzles/strategy/poisoned_wine.md %}
 
+{% include_relative puzzles/strategy/prisoner_lightbulb.md %}
+
 {% include_relative puzzles/math/squashed_bee.md %}
 
 {% include_relative puzzles/math/lockers.md %}
 
 {% include_relative puzzles/probability/seats_on_plane.md %}
+
+{% include_relative puzzles/probability/prisoner_boxes.md %}
 
 {% include_relative puzzles/probability/red_blue_marbles.md %}
 
@@ -45,3 +49,5 @@ title: Puzzles
 {% include_relative puzzles/physics/rock_boat.md %}
 
 {% include_relative puzzles/physics/water_bottle.md %}
+
+{% include_relative puzzles/physics/radioactive_cookies.md %}
