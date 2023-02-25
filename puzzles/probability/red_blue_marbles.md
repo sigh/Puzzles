@@ -7,11 +7,7 @@ however you like, but each marble must be in a jar.
 
 How many of each type of marble do you put in each jar?
 
-{::nomarkdown}
-<label for="{{ include.id }}"></label>
-<input type="checkbox" class="solution" id="{{ include.id }}">
-{:/}
-<div>
+{% solution %}
 
 Put 1 red marble in one jar, and put all the other marbles in the other jar.
 
@@ -50,4 +46,4 @@ $$
 
 Thus for any  $$ n $$  we can't get better than  $$ \frac{3}{4} $$  chance.
 
-</div>
+{% endsolution %}

@@ -7,11 +7,7 @@ You must guess whether it was the larger one or the smaller one.
 
 Give a strategy that wins with a probability greater than  $$ \frac{1}{2} $$.
 
-{::nomarkdown}
-<label for="{{ include.id }}"></label>
-<input type="checkbox" class="solution" id="{{ include.id }}">
-{:/}
-<div>
+{% solution %}
 
 If you see an  $$ x $$, guess "larger" with probability  $$ p(x) $$  and "smaller"
 with probability $$ 1-p(x) $$, where $$ p(x) $$ is a monotonically increasing function
@@ -41,4 +37,4 @@ $$
 But since $$ p(x) $$ is monotonically increasing and  $$ b > a $$, we have  $$ p(b) >
 p(a) $$. Thus the overall probability of winning is greater than $$  \frac{1}{2}  $$.
 
-</div>
+{% endsolution %}

@@ -13,11 +13,7 @@ prisoner at the front correctly names the colour of their hat.
 
 What was the colour of the hat on the prisoner at the front?
 
-{::nomarkdown}
-<label for="{{ include.id }}"></label>
-<input type="checkbox" class="solution" id="{{ include.id }}">
-{:/}
-<div>
+{% solution %}
 
 The prisoner at the front had a red hat.
 
@@ -34,4 +30,4 @@ was blue then the prisoner could deduce that their own hat colour was red. Howev
 not speak. This means that the colour of the hat on the front prisoner must be
 red.
 
-</div>
+{% endsolution %}

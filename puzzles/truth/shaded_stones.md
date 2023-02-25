@@ -7,11 +7,7 @@ they will answer "Yes", "No" or "I don't know".
 
 Can you determine which stone the person chose?
 
-{::nomarkdown}
-<label for="{{ include.id }}"></label>
-<input type="checkbox" class="solution" id="{{ include.id }}">
-{:/}
-<div>
+{% solution %}
 
 Ask "If I chose a stone out of the two that you didn't pick, would it be darker
 than yours?"
@@ -20,4 +16,4 @@ than yours?"
 * If they have a white stones, they answer "Yes".
 * If they have a grey stone, they must say "I don't know".
 
-</div>
+{% endsolution %}

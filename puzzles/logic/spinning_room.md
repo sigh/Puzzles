@@ -16,11 +16,7 @@ disorienting you so you can't tell which side is which.
 
 How can you escape?
 
-{::nomarkdown}
-<label for="{{ include.id }}"></label>
-<input type="checkbox" class="solution" id="{{ include.id }}">
-{:/}
-<div>
+{% solution %}
 
 Do the following in order until you escape:
 
@@ -69,4 +65,4 @@ $$ \xrightarrow{5} \{B\} $$
 $$ \xrightarrow{6} \{A\} $$
 $$ \xrightarrow{7} \{\} $$
 
-</div>
+{% endsolution %}

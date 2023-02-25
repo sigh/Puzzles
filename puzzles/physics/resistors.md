@@ -6,11 +6,7 @@ Imagine a cube, where each edge is a $$ 1 \Omega $$  resistor.
 
 What is the effective resistance between opposite corners of the cube?
 
-{::nomarkdown}
-<label for="{{ include.id }}-1"></label>
-<input type="checkbox" class="solution" id="{{ include.id }}-1">
-{:/}
-<div>
+{% solution %}
 
 The effective resistance is $$ \frac{5}{6} \Omega $$ .
 
@@ -57,7 +53,7 @@ R_{\text{eff}} = \frac{V}{I} =
   \frac{5}{6} \text{ } \Omega
 $$
 
-</div>
+{% endsolution %}
 
 ## Infinite lattice
 
@@ -66,11 +62,7 @@ intersection points is a resistor of $$ 1 \Omega $$ .
 
 What is the effective resistance between two adjacent intersection points?
 
-{::nomarkdown}
-<label for="{{ include.id }}-2"></label>
-<input type="checkbox" class="solution" id="{{ include.id }}-2">
-{:/}
-<div>
+{% solution %}
 
 The effective resistance is  $$ \frac{1}{2} \Omega $$ .
 
@@ -106,4 +98,4 @@ R_{\text{eff}} =
   \frac{1}{2} \text{ } \Omega
 $$
 
-</div>
+{% endsolution %}

@@ -14,11 +14,7 @@ play the following game:
 
 What's the best strategy for Player 1?
 
-{::nomarkdown}
-<label for="{{ include.id }}"></label>
-<input type="checkbox" class="solution" id="{{ include.id }}">
-{:/}
-<div>
+{% solution %}
 
 The best strategy for Player 1 to tell the truth if they roll higher than
  $$ \frac{1}{e} $$, or otherwise lie, reporting in the range
@@ -113,4 +109,4 @@ $$
 Giving the required probability distribution in the equation:
 $$ p(x) = e \left( \frac{1}{x} - 1 \right) $$
 
-</div>
+{% endsolution %}

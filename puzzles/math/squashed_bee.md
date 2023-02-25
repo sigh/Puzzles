@@ -11,11 +11,7 @@ middle of the tunnel.
 
 How far did the bee travel? Assume the bee can turn instantaneously.
 
-{::nomarkdown}
-<label for="{{ include.id }}"></label>
-<input type="checkbox" class="solution" id="{{ include.id }}">
-{:/}
-<div>
+{% solution %}
 
 The bee travels 1000 km.
 
@@ -37,4 +33,4 @@ $$ d = v_b t = \frac{L v_b}{2 v_t} $$
 For this problem, $$ v_b = 1000 $$ km/h, $$ v_t = 100 $$ km/h and $$ L = 200 $$ km giving
 $$ d = 1000 $$ km.
 
-</div>
+{% endsolution %}

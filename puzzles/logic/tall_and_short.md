@@ -7,11 +7,7 @@ $$ B $$.
 
 If $$ A $$ and $$ B $$ are different people, who is taller?
 
-{::nomarkdown}
-<label for="{{ include.id }}"></label>
-<input type="checkbox" class="solution" id="{{ include.id }}">
-{:/}
-<div>
+{% solution %}
 
 $$ B $$ is taller.
 
@@ -32,4 +28,4 @@ $$ A $$ (who is the shortest in their column), so $$ B > C > A $$.
 
 In every case, $$ B $$ is taller than $$ A $$.
 
-</div>
+{% endsolution %}

@@ -12,15 +12,11 @@ fair share.
 How can they check? They haven't got any other containers, so they can't pour any
 of the water out.
 
-{::nomarkdown}
-<label for="{{ include.id }}"></label>
-<input type="checkbox" class="solution" id="{{ include.id }}">
-{:/}
-<div>
+{% solution %}
 
 Person two notes where the water level is on the bottle. They can do this by
 making a mark, or simply keeping their finger there. They then turns the bottle
 upside down (with a lid on). If there the water level is below the place that
 was noted earlier, then person one drank more than their fair share.
 
-</div>
+{% endsolution %}
