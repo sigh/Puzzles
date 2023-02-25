@@ -12,6 +12,8 @@ title: Puzzles
 
 {% include_relative puzzles/logic/3_prisoner_line.md id="3_prisoner_line" %}
 
+{% include_relative puzzles/logic/spinning_room.md id="spinning_room" %}
+
 {% include_relative puzzles/logic/tall_and_short.md id="tall_and_short" %}
 
 {% include_relative puzzles/truth/true_false_gods.md id="true_false_gods" %}
