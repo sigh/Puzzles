@@ -1,4 +1,6 @@
-# Red marbles, blue marbles
+---
+title: Red marbles, blue marbles
+---
 
 You have two jars, 50 red marbles and 50 blue marbles. You need to place all
 the marbles into the jars such that when pick a random marble out of a random

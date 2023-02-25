@@ -1,4 +1,6 @@
-# River crossings
+---
+title: River crossings
+---
 
 There is a river, with a boat on one side. The boat is only big enough for two
 people, or one person and an object. It requires an adult to row it.

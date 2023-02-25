@@ -1,4 +1,6 @@
-# Rock in a boat
+---
+title: Rock in a boat
+---
 
 You are in a boat, and the boat is in a pool. There is a rock in the boat. You
 throw the rock overboard, and it sinks to the bottom of the pool.

@@ -1,4 +1,6 @@
-# Open lockers
+---
+title: Open lockers
+---
 
 A school has a hallway with 100 lockers. All the lockers are closed.
 

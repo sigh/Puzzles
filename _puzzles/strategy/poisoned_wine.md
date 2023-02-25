@@ -1,4 +1,6 @@
-# Poisoned wine bottles
+---
+title: Poisoned wine bottles
+---
 
 A king has 1000 bottles of wine, and is to serve 999 of them at a banquet in 24
 hours. The problem is that 1 of the bottles is poisoned, and he has to figure

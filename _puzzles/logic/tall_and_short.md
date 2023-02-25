@@ -1,4 +1,6 @@
-# Short and tall
+---
+title: Short and tall
+---
 
 Two hundred students are arranged in 10 rows of 20 children. The shortest
 student in each column is identified, and the tallest of these is marked $$ A $$. The

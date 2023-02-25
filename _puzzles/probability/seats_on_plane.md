@@ -1,4 +1,6 @@
-# Seats on a plane
+---
+title: Seats on a plane
+---
 
 There is a fully booked flight, which has just begun boarding passengers. Each
 passenger has already been assigned a seat. The first passenger to board is distracted and

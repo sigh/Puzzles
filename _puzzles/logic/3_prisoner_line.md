@@ -1,4 +1,6 @@
-# 3 prisoners in a line
+---
+title: 3 prisoners in a line
+---
 
 3 prisoners are brought to a room with 3 red hats and 2 blue hats. They are told
 to line up single file facing forward, so that each prisoner can only see those

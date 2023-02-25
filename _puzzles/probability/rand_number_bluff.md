@@ -1,4 +1,6 @@
-# Random number bluff
+---
+title: Random number bluff
+---
 
 There is a die that, when rolled, gives a random real number between 0 and 1. We
 play the following game:

@@ -1,4 +1,6 @@
-# 3 switches and a lightblub
+---
+title: 3 switches and a lightblub
+---
 
 You are in a room with 3 switches. One of the switches controls a lamp with an
 incandescent lightbulb in a nearby room. You may flip the switches as many times

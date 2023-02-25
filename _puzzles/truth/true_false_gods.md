@@ -1,4 +1,6 @@
-# Honest and deceitful gods
+---
+title: Honest and deceitful gods
+---
 
 You are on the road to heaven and you reach a fork in the road. One of the paths
 leads to heaven, however the other path leads to hell. At the fork there are two

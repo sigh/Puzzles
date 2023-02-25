@@ -1,4 +1,6 @@
-# Resistor network
+---
+title: Resistor network
+---
 
 ## Cube
 

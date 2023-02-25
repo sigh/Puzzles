@@ -1,4 +1,6 @@
-# Prisoners and a lightbulb
+---
+title: Prisoners and a lightbulb
+---
 
 A new prison has been built. It holds exactly 100 prisoners. Each prisoner is
 held in a solitary room with no way of communicating with the other prisoners,

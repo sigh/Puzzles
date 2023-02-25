@@ -1,4 +1,6 @@
-# Escape from the spinning room
+---
+title: Escape from the spinning room
+---
 
 You are trapped in a small square room. In the middle of each side of the room
 there is a hole. In each hole there is a push button that can be in either an

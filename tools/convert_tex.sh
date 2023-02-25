@@ -1,4 +1,4 @@
-sed -E -i '' 's/\\section{([^}]*)}/# \1/g' "$1"
+sed -E -i '' 's/\\section{([^}]*)}/---\ntitle: \1\n---/g' "$1"
 sed -E -i '' 's/\\begin{solution}/{% solution %}/g' "$1"
 sed -E -i '' 's/\\end{solution}/{% endsolution %}/g' "$1"
 sed -E -i '' 's/\\end{([^}]*)}//g' "$1"

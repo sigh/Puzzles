@@ -1,4 +1,6 @@
-# All horses are the same color
+---
+title: All horses are the same color
+---
 
 We will prove that in any group of horses, all horses are the same color.
 

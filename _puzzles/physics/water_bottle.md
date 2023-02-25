@@ -1,4 +1,6 @@
-# Melted water bottle
+---
+title: Melted water bottle
+---
 
 Two people are alone in a desert, and they have one full bottle of water
 between them. The water bottle is clear and plastic. The water bottle has been

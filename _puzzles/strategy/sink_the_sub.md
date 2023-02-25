@@ -1,4 +1,6 @@
-# Sink the sub
+---
+title: Sink the sub
+---
 
 An enemy submarine is on some unknown integer on the number line. It is moving
 at some unknown rate of  $$ v $$  units per minute, where  $$ v $$  is an integer.

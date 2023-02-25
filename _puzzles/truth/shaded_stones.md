@@ -1,4 +1,6 @@
-# Shaded stones
+---
+title: Shaded stones
+---
 
 An honest person has three stones, one white, one grey and one black.
 

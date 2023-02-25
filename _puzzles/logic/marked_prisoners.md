@@ -1,4 +1,6 @@
-# Marked prisoners
+---
+title: Marked prisoners
+---
 
 A group of 200 perfect logicians are taken prisoner. Each has either an
 `X` or an `O` marked on their forehead. They can all see each

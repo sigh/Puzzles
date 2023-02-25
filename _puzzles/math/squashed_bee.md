@@ -1,4 +1,6 @@
-# Squashed bee
+---
+title: Squashed bee
+---
 
 Two trains enter a tunnel 200 km long at the same time from opposite
 directions. They are both travelling at 100 km/h.

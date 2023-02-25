@@ -1,4 +1,6 @@
-# Radioactive cookies
+---
+title: Radioactive cookies
+---
 
 You have three cookies. One emits alpha radiation, one emits beta radiation and
 one emits gamma radiation. You have to eat one, put another in your pocket and

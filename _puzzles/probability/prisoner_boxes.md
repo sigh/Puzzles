@@ -1,4 +1,6 @@
-# Prisoners' names in boxes
+---
+title: Prisoners' names in boxes
+---
 
 There are 100 prisoners. Inside a room there are 100 boxes each holding the
 name of a different prisoners. One at a time, each prisoner is lead into the

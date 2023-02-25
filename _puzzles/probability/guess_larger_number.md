@@ -1,4 +1,6 @@
-# Guess the larger number
+---
+title: Guess the larger number
+---
 
 I pick two distinct real numbers at random from some arbitrary
 distribution. Then I flip a coin and if it comes up heads, I tell you the larger
