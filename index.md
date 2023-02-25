@@ -28,7 +28,15 @@ title: Puzzles
 
 {% include_relative puzzles/math/squashed_bee.md id="squashed_bee" %}
 
+{% include_relative puzzles/math/lockers.md id="lockers" %}
+
 {% include_relative puzzles/probability/seats_on_plane.md id="seats_on_plane" %}
+
+{% include_relative puzzles/probability/red_blue_marbles.md id="red_blue_marbles" %}
+
+{% include_relative puzzles/probability/guess_larger_number.md id="guess_larger_number" %}
+
+{% include_relative puzzles/probability/rand_number_bluff.md id="rand_number_bluff" %}
 
 {% include_relative puzzles/paradox/same_color.md id="same_color" %}
 
