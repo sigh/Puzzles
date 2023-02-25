@@ -20,6 +20,8 @@ title: Puzzles
 
 {% include_relative puzzles/truth/shaded_stones.md id="shaded_stones" %}
 
+{% include_relative puzzles/strategy/river_crossing.md id="river_crossing"%}
+
 {% include_relative puzzles/strategy/sink_the_sub.md id="sink_the_sub" %}
 
 {% include_relative puzzles/strategy/poisoned_wine.md id="poisoned_wine" %}
