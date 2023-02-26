@@ -30,6 +30,11 @@ nav ul>li {
   border-radius: 10px;
 }
 
+ul,
+ol {
+  padding-inline-start: 20px;
+}
+
 label {
   width: 100%;
 
