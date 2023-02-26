@@ -1,0 +1,18 @@
+---
+layout: default
+title: Puzzles
+---
+
+{% include nav.html %}
+
+<hr>
+
+{% for puzzle in site.puzzles %}
+
+<h1 id="{{ puzzle | puzzle_id }}">{{ puzzle.title }}</h1>
+
+{{ puzzle.content }}
+
+<hr>
+
+{% endfor %}

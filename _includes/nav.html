@@ -1,0 +1,17 @@
+<nav>
+  <ul>
+    {% for puzzle in site.puzzles %}
+    {% assign category = puzzle | puzzle_category %}
+    {% assign url = puzzle.url %}
+    {% if category != current_category %}
+    {% if current_category != '' %}
+  </ul>
+  {% endif %}
+  <li>{{ category | snake_to_words }}</li>
+  {% assign current_category = category %}
+  <ul>
+    {% endif %}
+    <li><a href="#{{ puzzle | puzzle_id }}">{{ puzzle.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
