@@ -20,4 +20,13 @@
     <li><a href="{{ href }}">{{ puzzle.title }}</a></li>
     {% endfor %}
   </ul>
+
+  <hr>
+  <footer>
+    {% if site.github.is_project_page %}
+    <a href="{{ site.github.repository_url }}"><span>View on GitHub</span></a>
+    {% else %}
+    <a href="{{ site.github.owner_url }}"><span>View on GitHub</span></a>
+    {% endif %}
+  </footer>
 </nav>
