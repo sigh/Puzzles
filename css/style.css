@@ -184,12 +184,14 @@ h3 {
   color: #b6b6b6;
 }
 
+a>h1,
 a {
   color: #ffcc00;
   font-weight: 400;
   text-decoration: none;
 }
 
+a:hover>h1,
 a:hover {
   color: #ffeb9b;
 }

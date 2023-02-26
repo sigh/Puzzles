@@ -1,0 +1,17 @@
+---
+title: All Puzzles
+layout: default
+inpage_nav: True
+---
+
+{% for puzzle in site.puzzles %}
+
+<a href="{{ puzzle.url }}">
+  <h1 id="{{ puzzle | puzzle_id }}">{{ puzzle.title }}</h1>
+</a>
+
+{{ puzzle.content }}
+
+<hr>
+
+{% endfor %}
