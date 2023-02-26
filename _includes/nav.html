@@ -1,5 +1,5 @@
 <nav>
-  <li><a href="{{ site.baseurl }}/all">All puzzles</a></li>
+  <li><a href="{{ '/all' | relative_url }}">All puzzles</a></li>
   <ul>
     {% for puzzle in site.puzzles %}
     {% assign category = puzzle | puzzle_category %}

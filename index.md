@@ -8,6 +8,6 @@ of them are classics which are widely known.
 Each puzzle has a worked solution.
 
 Choose a puzzle from the sidebar or view
-[all puzzles]({{ site.baseurl }}/all) on one page.
+[all puzzles]({{ '/all' | relative_url }}) on one page.
 
 There are currently {{ site.puzzles | size }} puzzles in the collection.
