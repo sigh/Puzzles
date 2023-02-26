@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Rock in a boat
 ---
 

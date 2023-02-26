@@ -11,7 +11,7 @@
   {% assign current_category = category %}
   <ul>
     {% endif %}
-    <li><a href="#{{ puzzle | puzzle_id }}">{{ puzzle.title }}</a></li>
+    <li><a href="{{ puzzle.url }}">{{ puzzle.title }}</a></li>
     {% endfor %}
   </ul>
 </nav>

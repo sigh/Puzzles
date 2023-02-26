@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Sink the sub
 ---
 

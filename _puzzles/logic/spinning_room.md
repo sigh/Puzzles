@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Escape from the spinning room
 ---
 

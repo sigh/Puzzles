@@ -1,4 +1,5 @@
 ---
+layout: default
 title: All horses are the same color
 ---
 
