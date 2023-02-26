@@ -17,7 +17,14 @@
     {% else %}
     {% assign href = puzzle.url %}
     {% endif %}
-    <li><a href="{{ href }}">{{ puzzle.title }}</a></li>
+    {% if page.url == puzzle.url %}
+    {% assign cls = "current-puzzle" %}
+    {% else %}
+    {% assign cls = "" %}
+    {% endif %}
+    <li class="{{ cls }}">
+      <a href="{{ href }}">{{ puzzle.title }}</a>
+    </li>
     {% endfor %}
   </ul>
 
