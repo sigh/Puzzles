@@ -25,6 +25,12 @@ nav ul>li {
   padding-left: 10px;
 }
 
+img {
+  background: white;
+  display: block;
+  margin: auto;
+}
+
 .current-puzzle {
   background-color: #454545;
   border-radius: 10px;
