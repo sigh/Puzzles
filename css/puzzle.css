@@ -47,6 +47,7 @@ ol {
 /* Insert text manually since kramdown doesn't handle <summary> text */
 details>summary::before {
   content: "Solution";
+  padding-left: 0.5em;
 }
 
 details>summary {
@@ -62,6 +63,11 @@ details[open]>summary {
 
 details>* {
   padding-left: 1em;
+}
+
+details>ul,
+details>ol {
+  padding-left: 3em;
 }
 
 details {
