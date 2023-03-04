@@ -13,7 +13,7 @@ partially eaten apple at the end of a trip he will finish the rest of it off.
 
 What is the maximum number of apples you can transport to the other town?
 
-{% solution %}
+<details><summary></summary>
 
 We can get 833 apples to the other town.
 
@@ -82,4 +82,4 @@ Applying this strategy to our problem:
   * Take 1000 apples until the end, which is $$d = 167$$ km away
   * We end up with 833 apples at the destination.
 
-{% endsolution %}
+</details>

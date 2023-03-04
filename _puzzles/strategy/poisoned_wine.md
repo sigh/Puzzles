@@ -14,7 +14,7 @@ period.
 How can he use his ten servants to find the single poisoned bottle out
 of 1000 bottles?
 
-{% solution %}
+<details><summary></summary>
 
 Number the bottles 0 to 999. Number the servants 0 to 9. Each servant drinks
 from bottles whose number has its $$i$$th bit set to 1.
@@ -26,4 +26,4 @@ uniquely identifies the bottle.
 In general this can be done for  $$ n $$  bottles as long as the king has at least
 $$ \lceil \log_2 n \rceil $$  servants.
 
-{% endsolution %}
+</details>

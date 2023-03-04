@@ -15,7 +15,7 @@ it falls off.
 Find the upper limit of the time it takes for the stick to be clear of ants,
 regardless of the original setup.
 
-{% solution %}
+<details><summary></summary>
 
 The stick will be clear of ants in, at most, 1 second.
 
@@ -25,7 +25,7 @@ When two ants reverse direction, it is equivalent to the two ants moving past
 each other because the identity of each ant doesn't matter. Thus for the 1m
 long stick, all ants will have fallen off after 1 second.
 
-{% endsolution %}
+</details>
 
 ## Ants on a ring
 
@@ -38,7 +38,7 @@ counter-clockwise.
 
 How far from its starting position is ant \#1 at time $$t=1$$ second?
 
-{% solution %}
+<details><summary></summary>
 
 Ant \#1 and will have moved 50 cm counter-clockwise along ring (it will be on
 the opposite side of the ring).
@@ -68,4 +68,4 @@ any time $$t$$.
 Thus at time $$t=1$$ the ants will all have moved counter-clockwise by 50 cm,
 meaning each individual ant will have moved counter-clockwise by 50 cm.
 
-{% endsolution %}
+</details>

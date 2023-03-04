@@ -22,7 +22,7 @@ $$
 
 For example $$2 + 2 + 2 = 6$$.
 
-{% solution %}
+<details><summary></summary>
 
 $$
 \begin{align}
@@ -46,4 +46,4 @@ $$
 \left((x + x + x) / x\right)! = 6
 $$
 
-{% endsolution %}
+</details>

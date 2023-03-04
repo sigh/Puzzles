@@ -10,7 +10,7 @@ the lamp is on from the room with the switches.
 
 How can you determine which switch controls the lamp?
 
-{% solution %}
+<details><summary></summary>
 
 Number the switches \#1, \#2 and \#3. Use the following strategy:
 
@@ -26,4 +26,4 @@ Number the switches \#1, \#2 and \#3. Use the following strategy:
             switch \#1 controls the lamp.
   * Otherwise switch \#3 controls the lamp.
 
-{% endsolution %}
+</details>

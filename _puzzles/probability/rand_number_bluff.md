@@ -17,7 +17,7 @@ play the following game:
 
 What's the best strategy for Player 1?
 
-{% solution %}
+<details><summary></summary>
 
 The best strategy for Player 1 to tell the truth if they roll higher than
  $$ \frac{1}{e} $$, or otherwise lie, reporting in the range
@@ -112,4 +112,4 @@ $$
 Giving the required probability distribution in the equation:
 $$ p(x) = e \left( \frac{1}{x} - 1 \right) $$
 
-{% endsolution %}
+</details>

@@ -16,7 +16,7 @@ Will the caterpillar ever reach the other side?
 Note that as the bungee cord is stretched, the caterpillars relative position on
 the cord remains the same, its absolute position increases.
 
-{% solution %}
+<details><summary></summary>
 
 Yes, the caterpillar does reach the other side, eventually.
 
@@ -61,4 +61,4 @@ Thus an approximation for the number of steps taken by the caterpiller is:
 
 $$ n \approx e^{H_n - \gamma} \approx 1.5 \times 10^{43} $$
 
-{% endsolution %}
+</details>

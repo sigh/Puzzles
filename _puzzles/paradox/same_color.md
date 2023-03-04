@@ -31,7 +31,7 @@ Thus, in any group of horses, all horses must be the same color.
 
 Where is the flaw in the logic?
 
-{% solution %}
+<details><summary></summary>
 
 The flaw is in assuming it is possible to find a horse who was not excluded by either of the groups of $$ n $$ in the inductive case.
 
@@ -40,4 +40,4 @@ in the group to compare against.
 
 Thus the induction fails for $$ n=2 $$.
 
-{% endsolution %}
+</details>

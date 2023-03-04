@@ -11,7 +11,7 @@ will be released. The prisoners are allowed to come up with a plan overnight.
 
 What is the best plan that will save the most number of prisoners?
 
-{% solution %}
+<details><summary></summary>
 
 The prisoner at the back will guess red if they sees an even number of red hats
 in front of them, or blue if they sees an odd number of red has in front of
@@ -30,4 +30,4 @@ This saves the 99 people in the front with certainty, and the last prisoner with
 We can't do any better than chance for the last prisoner as they have no
 information about their hat color.
 
-{% endsolution %}
+</details>

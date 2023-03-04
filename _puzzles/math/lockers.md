@@ -15,7 +15,7 @@ locker starting at locker $$n$$.
 
 After 100 students have passed down the hallway, which lockers are open?
 
-{% solution %}
+<details><summary></summary>
 
 The lockers left open are the square numbers: 1, 4, 9, 16, 25, 36, 49, 64, 81
 and 100.
@@ -32,4 +32,4 @@ Factors come in pairs ($$ n = f_1 \times f_2 $$), so for there to be an odd numb
 factor $$ f $$ must repeat itself in a pair ($$ f = f_1 = f_2 $$).
 In this case $$ n = f \times f $$, thus $$ n $$ is a square number.
 
-{% endsolution %}
+</details>

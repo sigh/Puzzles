@@ -10,7 +10,7 @@ they will answer "Yes", "No" or "I don't know".
 
 Can you determine which stone the person chose?
 
-{% solution %}
+<details><summary></summary>
 
 Ask "If I chose a stone out of the two that you didn't pick, would it be darker
 than yours?"
@@ -19,4 +19,4 @@ than yours?"
 * If they have a white stones, they answer "Yes".
 * If they have a grey stone, they must say "I don't know".
 
-{% endsolution %}
+</details>

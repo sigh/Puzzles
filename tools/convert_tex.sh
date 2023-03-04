@@ -1,6 +1,6 @@
 sed -E -i '' 's/\\section{([^}]*)}/---\ntitle: \1\nlayout: default\n---/g' "$1"
-sed -E -i '' 's/\\begin{solution}/{% solution %}/g' "$1"
-sed -E -i '' 's/\\end{solution}/{% endsolution %}/g' "$1"
+sed -E -i '' 's/\\begin{solution}/<details><summary><\/summary>/g' "$1"
+sed -E -i '' 's/\\end{solution}/<\/details>/g' "$1"
 sed -E -i '' 's/\\begin{equation.?}/$/g' "$1"
 sed -E -i '' 's/\\end{equation.?}/$/g' "$1"
 sed -E -i '' 's/\\begin{align.?}/__BEGIN_ALIGN__/g' "$1"

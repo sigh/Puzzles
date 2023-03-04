@@ -10,7 +10,7 @@ to ask one question to one of the gods.
 
 What question do you ask to determine the path to heaven?
 
-{% solution %}
+<details><summary></summary>
 
 Ask one of the gods "If I were to ask the other god which path leads to
 heaven, what would he say?" Then take the opposite path.
@@ -31,4 +31,4 @@ leads to heaven.
 Thus whoever you ask, they will point to path that leads to hell. We simply pick
 the other path.
 
-{% endsolution %}
+</details>

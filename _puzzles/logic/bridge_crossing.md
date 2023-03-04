@@ -12,7 +12,7 @@ person's pace.
 
 Can they all get across the bridge in 15 minutes or less?
 
-{% solution %}
+<details><summary></summary>
 
 First note that making the fastest person the torch-bearer and having them
 shuttle the others across takes 17 minutes, and thus isn't sufficient. The time
@@ -28,4 +28,4 @@ time.
 | 13           | `A B`     | `C D`      | B returns        |
 | 15           |           | `A B C D`  | A and B cross    |
 
-{% endsolution %}
+</details>

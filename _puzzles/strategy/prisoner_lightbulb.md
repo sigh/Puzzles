@@ -26,7 +26,7 @@ The light is off before the first prisoner goes in. The prisoners are told that
 the warden will bring in one prisoner a day to the room. Can you come up with a
 plan that guarantees success (eventually)?
 
-{% solution %}
+<details><summary></summary>
 
 * Every prisoner starts off with a count of 1.
 * Designate one prisoner as the "collector".
@@ -74,7 +74,7 @@ choosing the collector. For example, selecting the prisoner brought in on the
 second day, they can immediately count the prisoner on the first day and shorten
 their stay by an average of $$n$$ days.
 
-{% endsolution %}
+</details>
 
 ## Unknown state, unknown time
 
@@ -82,7 +82,7 @@ Is it still possible to solve the problem if the prisoners do not know the
 initial state of the lightbulb or how often a prisoner will be brought to the
 room?
 
-{% solution %}
+<details><summary></summary>
 
 The algorithm for a known state already works if the prisoners don't
 know how often they are brought to the room, so we just need to deal with the
@@ -115,14 +115,14 @@ will see the lightbulb in both states.
 
 Note that this solutions here is not optimal, it is a simple example of feasibility.
 
-{% endsolution %}
+</details>
 
 ## Multiple states
 
 Suppose the lightbulb is replaced with a switch with multiple states,
 can the prisoners use that to escape faster?
 
-{% solution %}
+<details><summary></summary>
 
 Let $$n$$ be the number of prisoners.
 The previous algorithms can be easily adjusted to take advantage
@@ -153,4 +153,4 @@ For $$n = 100$$ this is about $$519$$ days.
 
 As with the previous algorithms, this solution is not optimal.
 
-{% endsolution %}
+</details>

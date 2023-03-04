@@ -12,7 +12,7 @@ that you want. You must sink the sub.
 
 Devise a strategy that is guaranteed to eventually hit the enemy sub.
 
-{% solution %}
+<details><summary></summary>
 
 Look the grid of integer points on the Cartesian plane. Starting at $$ (0,0) $$,
 visit each point in turn one every minute. Fire at  $$ f(t) = x + y t $$ . This will
@@ -31,4 +31,4 @@ eventually hit the sub.
 In fact, this works if the sub can move to any rational number, algebraic number
 or any other countable set.
 
-{% endsolution %}
+</details>

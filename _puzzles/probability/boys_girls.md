@@ -9,7 +9,7 @@ have a boy, they stop. Boys are girls are equally likely to be born.
 
 What is the proportion of boys to girls in this country?
 
-{% solution %}
+<details><summary></summary>
 
 The ratio of boys to girls is 1:1.
 
@@ -39,4 +39,4 @@ This represents that there is a 50% chance of having at least one girl. Given
 one girl, there is a 50% chance of having at least 2 girls, and so on.
 Since each family stops at one boy, there is on average 1 boy and 1 girl in each family.
 
-{% endsolution %}
+</details>

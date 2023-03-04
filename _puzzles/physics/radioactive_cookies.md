@@ -7,7 +7,7 @@ You have three cookies. One emits alpha radiation, one emits beta radiation and
 one emits gamma radiation. You have to eat one, put another in your pocket and
 put a third into a lead box. What do you do with each cookie?
 
-{% solution %}
+<details><summary></summary>
 
 * Put the beta emitting cookie in the lead box. That will protect you from
   that cookie.
@@ -18,4 +18,4 @@ put a third into a lead box. What do you do with each cookie?
   body. In addition, it is energetic enough that much of it is likely to
   escape your body without interacting with it.
 
-{% endsolution %}
+</details>

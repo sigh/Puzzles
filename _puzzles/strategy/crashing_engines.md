@@ -28,7 +28,7 @@ The computer can recognize the following 4 commands:
 You are the programmer of the engine on-board computer. Your goal is to make two
 engines crash. Can you do that?
 
-{% solution %}
+<details><summary></summary>
 
 Use the following program:
 
@@ -51,4 +51,4 @@ the other. It will then start moving at a faster speed than the first (in the
 `run` loop), as it no longer has to do a `BACKWARD FORWARD` every
 iteration. Thus it will eventually catch the first.
 
-{% endsolution %}
+</details>

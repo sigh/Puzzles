@@ -10,7 +10,7 @@ $$ B $$.
 
 If $$ A $$ and $$ B $$ are different people, who is taller?
 
-{% solution %}
+<details><summary></summary>
 
 $$ B $$ is taller.
 
@@ -31,4 +31,4 @@ $$ A $$ (who is the shortest in their column), so $$ B > C > A $$.
 
 In every case, $$ B $$ is taller than $$ A $$.
 
-{% endsolution %}
+</details>

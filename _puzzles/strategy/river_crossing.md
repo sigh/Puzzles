@@ -16,7 +16,7 @@ goat will eat the hay if left alone with it.
 
 How does the farmer get everything across the river?
 
-{% solution %}
+<details><summary></summary>
 
 Let:
 
@@ -35,7 +35,7 @@ The side with the boat is surrounded with brackets.
 | (`F G`)     | `W H`       | Farmer takes the hay across and comes back            |
 |             | (`F W G H`) | Farmer takes the goat across                          |
 
-{% endsolution %}
+</details>
 
 ## The criminals
 
@@ -44,7 +44,7 @@ The theives refuse to be outnumbered by assassins at any point.
 
 How can they all get across the river?
 
-{% solution %}
+<details><summary></summary>
 
 Let:
 
@@ -64,7 +64,7 @@ The side with the boat is surrounded with brackets.
 | `A`             | ( `T T T A A`)   | An assassin goes back and two come across            |
 |                 | ( `T T T A A A`) | An assassin goes back and two come across            |
 
-{% endsolution %}
+</details>
 
 ## The jealous couple
 
@@ -77,7 +77,7 @@ control it. The dog can be left tied up alone.
 
 How can the group cross the river?
 
-{% solution %}
+<details><summary></summary>
 
 Let:
 
@@ -103,4 +103,4 @@ The side with the boat is surrounded with brackets.
 | `C`                 | ( `F M W W G G S`)   | The son takes the dog back and comes across with a female friend |
 | `-`                 | ( `F M W W G G S C`) | The son goes back and comes across with the dog                  |
 
-{% endsolution %}
+</details>

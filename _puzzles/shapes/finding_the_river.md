@@ -17,7 +17,7 @@ reach it.
 You have enough fuel to go 6400 km. Can you make it back to the river (any point
 on the river)?
 
-{% solution %}
+<details><summary></summary>
 
 ![Finding the river]({{ 'images/finding_the_river.png' | relative_url }})
 
@@ -145,4 +145,4 @@ $$
 d \approx 6397 \text{ km}
 $$
 
-{% endsolution %}
+</details>

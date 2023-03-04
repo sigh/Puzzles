@@ -14,7 +14,7 @@ accurately. Bad processors respond randomly.
 Determine a strategy for finding one good processor with certainty that uses no
 more than $$n-2$$ tests in the worst case.
 
-{% solution %}
+<details><summary></summary>
 
 First, if $$n$$ is even, throw one processor out. Now start a stack of processors,
 initially, it is empty. Now:
@@ -101,4 +101,4 @@ pile. Thus each processor performs a maximum of one test each. Because the first
 and the last processors never perform any tests, we have that the maximum number
 of tests performed is $$n-2$$.
 
-{% endsolution %}
+</details>

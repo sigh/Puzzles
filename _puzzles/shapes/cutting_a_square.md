@@ -12,10 +12,10 @@ You also have
 scissors. Show how to cut up the $$5 \times 5$$ paper into two pieces, so that the
 two pieces can then be interlocked to form a $$6 \times 4$$ rectangle.
 
-{% solution %}
+<details><summary></summary>
 
 The cut required is shown in red:
 
 ![Solution]({{'images/cutting_a_square_sol.png' | relative_url}})
 
-{% endsolution %}
+</details>

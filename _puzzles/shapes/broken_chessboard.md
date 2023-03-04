@@ -16,7 +16,7 @@ You also have an infinite supply of the dominoes.
 Can you cover the entire chessboard with dominoes, with none overlapping, and
 none going outside the bounds of the board?
 
-{% solution %}
+<details><summary></summary>
 
 It is not possible.
 
@@ -31,7 +31,7 @@ both the squares missing are black. This means that no matter how you lay the
 dominoes there will always be two uncovered white squares, which cannot be
 paired with a black one.
 
-{% endsolution %}
+</details>
 
 ## Tetraminos
 
@@ -46,7 +46,7 @@ You also have an infinite supply of the tetraminos.
 Can you cover the entire chessboard with tetraminos, with none overlapping, and
 none going outside the bounds of the board?
 
-{% solution %}
+<details><summary></summary>
 
 It is not possible.
 
@@ -71,4 +71,4 @@ There's an equal number of black and white squares, so there must be equally
 many of both kinds of tetraminos. But there are only $$15 \times 4$$ squares left,
 so there can't be equal numbers of each kind.
 
-{% endsolution %}
+</details>

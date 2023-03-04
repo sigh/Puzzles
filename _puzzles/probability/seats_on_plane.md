@@ -13,7 +13,7 @@ sit there. Otherwise they sit at a random seat that is free.
 What is the probability that the last passenger to board sits in their assigned
 seat?
 
-{% solution %}
+<details><summary></summary>
 
 The last passenger has a 50% chance of finding their seat free.
 
@@ -28,4 +28,4 @@ They continue being dislodged until they ends up in either their own seat, or th
 seat of the last passenger. Both of these situations are equally likely, and
 hence the last passenger has a 50% chance of finding their seat free.
 
-{% endsolution %}
+</details>

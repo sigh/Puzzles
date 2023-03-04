@@ -11,7 +11,7 @@ friends, some aren't. All friendships are mutual.
 Show that there are at least two people at the party who have the same number of
 friends.
 
-{% solution %}
+<details><summary></summary>
 
 Let $$n$$ be the number of people at the party.
 
@@ -27,14 +27,14 @@ with everyone).
 Thus there are $$n-1$$ possible numbers of friends and $$n$$ people, so by the
 pigeon-hole principal, at least two people have the same number of friends.
 
-{% endsolution %}
+</details>
 
 ## Mutual friends
 
 Now show that any group of six people contains either 3 mutual friends or 3
 mutual strangers.
 
-{% solution %}
+<details><summary></summary>
 
 Imagine the 6 people. Of them, some person $$X$$ either has at least 3 friends
 among the other 5, or at least 3 strangers.
@@ -59,4 +59,4 @@ In general, if we require there be either a group of $$a$$ mutual strangers or
 $$b$$ mutual friends then the minimum sized group of people required is called the
 Ramsey number: $$R(a,b)$$. The case explored in this problem is $$R(3,3) = 6$$.
 
-{% endsolution %}
+</details>

@@ -19,7 +19,7 @@ at the coins.
 The prisoners may discuss any strategy beforehand. Can the prisoners
 go free?
 
-{% solution %}
+<details><summary></summary>
 
 This can be solved for any board with $$2^k$$ squares. For a chessboard $$k = 6$$.
 
@@ -132,4 +132,4 @@ $$n | 2^n$$ is only true when $$n$$ is a power of 2. Thus if $$n \ne 2^k$$ a
 solution is not possible because in any given strategy there will be some
 values which can't be reached from all states.
 
-{% endsolution %}
+</details>

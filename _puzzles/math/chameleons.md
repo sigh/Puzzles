@@ -14,7 +14,7 @@ blue on, they will both turn green. Initially their numbers are as follows:
 
 Is it ever possible for all the chameleons to become the same colour?
 
-{% solution %}
+<details><summary></summary>
 
 No, the chameleons can never all be the same colour.
 
@@ -52,4 +52,4 @@ For all the chameleons to be the same colour we would require the other two
 colours to both have 0 chameleons. However, from our initial condition this can
 never happen because none of the initial numbers are the same modulo 3.
 
-{% endsolution %}
+</details>

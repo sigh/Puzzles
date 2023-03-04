@@ -13,7 +13,7 @@ Your friend wants to go first.
 
 Is this game fair?
 
-{% solution %}
+<details><summary></summary>
 
 No, the game isn't fair. The first player always has a winning strategy.
 
@@ -31,4 +31,4 @@ This will generate a completely symmetric layout of coins on the table. Whenever
 the player \#2 selects a free space to place a coin in, the space opposite is
 guaranteed to be free as well. Since player \#1 is always guaranteed an open
 
-{% endsolution %}
+</details>

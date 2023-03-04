@@ -10,7 +10,7 @@ the same amount of each layer.
 
 How could this be done with only one cut through the cake?
 
-{% solution %}
+<details><summary></summary>
 
 Make a vertical cut that goes through the midpoints of the original cake, and
 the midpoint of the missing section.
@@ -23,4 +23,4 @@ the missing section.
 
 This makes the size of each slice exactly equal.
 
-{% endsolution %}
+</details>

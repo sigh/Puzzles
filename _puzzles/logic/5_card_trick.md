@@ -18,7 +18,7 @@ from inspecting the four card pile.
 
 How was this trick performed if the magician used an ordinary 52-card deck?
 
-{% solution %}
+<details><summary></summary>
 
 Out of the 5 drawn cards, the assistant chooses 2 cards which have the same suit.
 
@@ -61,14 +61,14 @@ There are 6 possible values for $$p$$: 1, 2, 3, 4, 5 and 6. We can encode $$3! =
 numbers by controlling the order of 3 cards. Thus we are able to encode $$p$$ with
 the order of our three remaining cards.
 
-{% endsolution %}
+</details>
 
 ## Extended case
 
 What is the maximum number of distinct cards the magician could perform this
 trick with?
 
-{% solution %}
+<details><summary></summary>
 
 The maximum size deck the trick can be performed with is 124.
 
@@ -224,4 +224,4 @@ be able to see the $$n - 1$$ cards in the pile.
 
 This results in a upper-bound for the card deck of $$N = n! + n - 1$$ cards.
 
-{% endsolution %}
+</details>

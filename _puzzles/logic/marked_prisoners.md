@@ -24,7 +24,7 @@ He is quickly disciplined, but everyone heard what he said.
 
 Who leaves the prison, and on what night?
 
-{% solution %}
+<details><summary></summary>
 
 On the 100th day, all 100 prisoners with an `X` mark will leave. On
 the day after 101st day, the 100 remaining prisoners with the `O` mark
@@ -90,6 +90,6 @@ everyone knows that there is at least `X` marked prisoner. And everyone
 knows that everyone knows that everyone knows... and so on indefinitely.
 Sufficiently deep in this meta-knowledge, this adds new information. This is known as [Common knowledge](https://en.wikipedia.org/wiki/Common_knowledge).
 
-{% endsolution %}
+</details>
 
 Made famous as [xkcd's Blue Eyes puzzle](https://xkcd.com/blue_eyes.html) ([solution](https://xkcd.com/solution.html)).

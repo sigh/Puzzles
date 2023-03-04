@@ -16,7 +16,7 @@ prisoners after the first prisoner has been lead into the room.
 
 Find a strategy that wins at least 30% of the time.
 
-{% solution %}
+<details><summary></summary>
 
 First, number each prisoner from 1 to 100. When a prisoner goes into the room
 they:
@@ -149,4 +149,4 @@ $$n$$:
 
 $$ P(N) = \frac{1}{N} \sum_{i=1}^{n} P(N-i) $$
 
-{% endsolution %}
+</details>

@@ -19,7 +19,7 @@ disorienting you so you can't tell which side is which.
 
 How can you escape?
 
-{% solution %}
+<details><summary></summary>
 
 Do the following in order until you escape:
 
@@ -68,4 +68,4 @@ $$ \xrightarrow{5} \{B\} $$
 $$ \xrightarrow{6} \{A\} $$
 $$ \xrightarrow{7} \{\} $$
 
-{% endsolution %}
+</details>

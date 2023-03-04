@@ -16,7 +16,7 @@ brothers (but not both) to establish with certainty which of the two is Bob.
 
 What question do you ask?
 
-{% solution %}
+<details><summary></summary>
 
 Ask "Is Bob a liar?" Only Bob will answer "No".
 
@@ -32,4 +32,4 @@ There are four possibilities:
 So it can be seen that Bob will always answer "No" and his brother will always
 answer "Yes".
 
-{% endsolution %}
+</details>

@@ -10,7 +10,7 @@ however you like, but each marble must be in a jar.
 
 How many of each type of marble do you put in each jar?
 
-{% solution %}
+<details><summary></summary>
 
 Put 1 red marble in one jar, and put all the other marbles in the other jar.
 
@@ -49,4 +49,4 @@ $$
 
 Thus for any  $$ n $$  we can't get better than  $$ \frac{3}{4} $$  chance.
 
-{% endsolution %}
+</details>
