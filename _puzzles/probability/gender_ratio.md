@@ -1,5 +1,5 @@
 ---
-title: Boys and girls
+title: Gender Ratio
 layout: default
 ---
 

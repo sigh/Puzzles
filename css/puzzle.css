@@ -3,6 +3,10 @@ body {
   flex-wrap: nowrap;
 }
 
+.wrapper {
+  width: 100%;
+}
+
 body>nav {
   flex-basis: 250px;
   margin-top: 30px;
