@@ -63,6 +63,7 @@ details[open]>summary {
 
 details>* {
   padding-left: 1em;
+  padding-right: 1em;
 }
 
 details>ul,
@@ -73,4 +74,5 @@ details>ol {
 details {
   border: 1px solid slategray;
   border-radius: 2px;
+  margin-bottom: 1em;
 }
