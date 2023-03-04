@@ -2,18 +2,20 @@
   <li><a href="{{ '/all' | relative_url }}">All puzzles</a></li>
   <ul>
     {% for puzzle in site.puzzles %}
-    {% assign category = puzzle | puzzle_category %}
+    {% assign path_parts = puzzle.path | split: "/" %}
+    {% assign category = path_parts[1] %}
+    {% assign puzzle_id = path_parts[2] | gsub: '.md', '' %}
     {% assign url = puzzle.url %}
     {% if category != current_category %}
     {% if current_category != '' %}
   </ul>
   {% endif %}
-  <li>{{ category | snake_to_words }}</li>
+  <li>{{ category | capitalize }}</li>
   {% assign current_category = category %}
   <ul>
     {% endif %}
     {% if page.inpage_nav %}
-    {% assign href = puzzle | puzzle_id | prepend: '#' %}
+    {% assign href = puzzle_id | prepend: '#' %}
     {% else %}
     {% assign href = puzzle.url %}
     {% endif %}
