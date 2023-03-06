@@ -11,3 +11,4 @@ kramdown:
 
 exclude:
   - old
+  - README
