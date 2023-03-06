@@ -7,47 +7,15 @@ Each of these proofs result in a false statement. Identify the mistakes.
 
 ## $$2 = 1$$
 
-Let $$a$$ and $$b$$ be non-zero numbers:
+Let $$a$$ and $$b$$ be non-zero numbers.
 
-$$
-a = b
-$$
-
-Multiply by $$a$$:
-
-$$
-a^2 = a b
-$$
-
-Subtract $$b^2$$:
-
-$$
-a^2 - b^2 = ab - b^2
-$$
-
-Factor:
-
-$$
-(a-b) (a + b) = b (a - b)
-$$
-
-Divide by $$a-b$$:
-
-$$
-a + b = b
-$$
-
-Observe that $$a = b$$:
-
-$$
-2 b = b
-$$
-
-Divide by non-zero $$b$$:
-
-$$
-2 = 1
-$$
+| $$ a = b $$ |
+| $$ a^2 = a b $$ | Multiply by $$a$$
+| $$ a^2 - b^2 = ab - b^2 $$ | Subtract $$b^2$$
+| $$ (a-b) (a + b) = b (a - b) $$ | Factor
+| $$ a + b = b $$ | Divide by $$a-b$$
+| $$ 2 b = b $$ | Substitute $$a = b$$
+| $$ 2 = 1 $$ | Divide by $$b$$
 
 What went wrong?
 
@@ -59,63 +27,15 @@ You can't divide through by $$a-b$$. Since $$a = b$$, this is dividing by 0.
 
 ## $$4 = 5$$
 
-Start with a true equation:
-
-$$
-20 = 20
-$$
-
-$$
-36 - 16 = 45 - 25
-$$
-
-Multiply by $$-1$$:
-
-$$
-16 - 36 = 25 - 45
-$$
-
-Add $$\frac{81}{4}$$ to both sides:
-
-$$
-16 - 36 + \frac{81}{4}= 25 - 45 + \frac{81}{4}
-$$
-
-Simplify:
-
-$$
-4^2- 36 + \left( \frac{9}{2} \right)^2 =
-  5^2 - 45 + \left( \frac{9}{2} \right)^2
-$$
-
-Reduce 35 and 45 to factors:
-
-$$
-4^2 -
-  \left( 2 \times4 \times \frac{9}{2} \right) +
-  \left( \frac{9}{2} \right)^2 =
-  5^2 -
-  \left( 2 \times 5 \times \frac{9}{2} \right) +
-  \left( \frac{9}{2} \right)^2
-$$
-
-Factorise:
-
-$$
-\left( 4 - \frac{9}{2} \right)^2 = \left( 5 - \frac{9}{2}\right )^2
-$$
-
-Take the square root of both sides:
-
-$$
-4 - \frac{9}{2} = 5 - \frac{9}{2}
-$$
-
-And finally:
-
-$$
-4 = 5
-$$
+| $$ 20 = 20 $$ | Start with a true equation
+| $$ 36 - 16 = 45 - 25 $$ |
+| $$ 16 - 36 = 25 - 45 $$ | Multiply by $$-1$$
+| $$ 16 - 36 + \frac{81}{4}= 25 - 45 + \frac{81}{4} $$ | Add $$\frac{81}{4}$$ to both sides
+| $$ 4^2- 36 + \left( \frac{9}{2} \right)^2 = 5^2 - 45 + \left( \frac{9}{2} \right)^2 $$ |
+| $$ 4^2 - \left( 2 \times4 \times \frac{9}{2} \right) + \left( \frac{9}{2} \right)^2 = 5^2 - \left( 2 \times 5 \times \frac{9}{2} \right) + \left( \frac{9}{2} \right)^2 $$ | Reduce 35 and 45 to factors
+| $$ \left( 4 - \frac{9}{2} \right)^2 = \left( 5 - \frac{9}{2}\right )^2 $$ | Factorise
+| $$ 4 - \frac{9}{2} = 5 - \frac{9}{2} $$ | Take the square root of both sides
+| $$ 4 = 5 $$ | Subtract $$ \frac{9}{2} $$
 
 What happened?
 
@@ -141,11 +61,7 @@ This is obviously true.
 
 ## $$2 = 1$$, the calculus way
 
-We know that we can differentiate $$x^2$$:
-
-$$
-\frac{d}{dx} x^2 = 2 x
-$$
+We know from the power rule that: $$ \frac{d}{dx} x^2 = 2 x $$
 
 However, what if we re-write $$x^2$$ as the sum of $$x$$s:
 
@@ -192,10 +108,7 @@ us with the same problem.
 ## $$0 = 1$$, integration by parts
 
 Let us evaluate the indefinite integral:
-
-$$
-\int \frac{1}{x} dx
-$$
+$$ \int \frac{1}{x} dx $$
 
 Let:
 
@@ -325,9 +238,7 @@ $$
 
 However, if we substitute into the original equation, we get:
 
-$$
-1^2 + 1 = 2 \ne 1
-$$
+$$ 1^2 + 1 = -1 $$
 
 What happened?
 
