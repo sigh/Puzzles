@@ -1,5 +1,5 @@
 ---
-title: Gender Ratio
+title: Gender ratio
 layout: default
 ---
 

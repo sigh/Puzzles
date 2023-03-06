@@ -3,7 +3,7 @@ title: Puzzles
 collections:
   puzzles:
     output: true
-    permalink: /:collection/:name
+    permalink: /:name
 
 kramdown:
   toc_levels: 1..2
