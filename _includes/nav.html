@@ -4,8 +4,7 @@
     {% for puzzle in site.puzzles %}
     {% assign path_parts = puzzle.path | split: "/" %}
     {% assign category = path_parts[1] %}
-    {% assign puzzle_id = path_parts[2] | gsub: '.md', '' %}
-    {% assign url = puzzle.url %}
+    {% assign puzzle_id = path_parts[2] | replace: '.md', '' %}
     {% if category != current_category %}
     {% if current_category != '' %}
   </ul>
@@ -17,7 +16,7 @@
     {% if page.inpage_nav %}
     {% assign href = puzzle_id | prepend: '#' %}
     {% else %}
-    {% assign href = puzzle.url %}
+    {% assign href = puzzle.url | relative_url %}
     {% endif %}
     {% if page.url == puzzle.url %}
     {% assign cls = "current-puzzle" %}
@@ -25,7 +24,7 @@
     {% assign cls = "" %}
     {% endif %}
     <li class="{{ cls }}">
-      <a href="{{ href | relative_url }}">{{ puzzle.title }}</a>
+      <a href="{{ href }}">{{ puzzle.title }}</a>
     </li>
     {% endfor %}
   </ul>
