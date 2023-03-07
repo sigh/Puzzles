@@ -9,7 +9,7 @@ inpage_nav: True
 {% assign path_parts = puzzle.path | split: "/" %}
 {% assign puzzle_id = path_parts[2] | gsub: '.md', '' %}
 
-<a href="{{ puzzle.url }}">
+<a href="{{ puzzle.url | relative_url }}">
   <h1 id="{{ puzzle_id }}">{{ puzzle.title }}</h1>
 </a>
 

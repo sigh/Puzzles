@@ -25,7 +25,7 @@
     {% assign cls = "" %}
     {% endif %}
     <li class="{{ cls }}">
-      <a href="{{ href }}">{{ puzzle.title }}</a>
+      <a href="{{ href | relative_url }}">{{ puzzle.title }}</a>
     </li>
     {% endfor %}
   </ul>
