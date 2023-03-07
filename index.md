@@ -8,7 +8,7 @@ of them are classics which are widely known.
 Each puzzle has a worked solution.
 
 There are currently {{ site.puzzles | size }} puzzles in the collection.
-Choose a puzzle from the sidebar or view
+Choose a puzzle from the list or view
 [all puzzles]({{ '/all' | relative_url }}) on one page.
 
 Report any problems with the puzzles in the
