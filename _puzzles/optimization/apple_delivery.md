@@ -23,60 +23,62 @@ Let the town you are in be town \#1 and the destination be town \#2. Let the
 distance between them be $$D$$, and the number of apples be $$A$$, and the capacity
 of the car be $$C$$ apples.
 
-We notice that since our friend will finish of a partially eaten apple, there
-is not benefit in travelling non-integer distances. Thus we will not consider
-these.
+A couple of observations:
 
-Suppose for some distance $$d$$, we could start off with $$a_i$$ apples and
-finish with $$a_f$$ apples.
+* Since our friend will finish of a partially eaten apple, there
+is no benefit in travelling non-integer distances.
+* If our friend travels a distance $$d_1$$, then they could equally travel the
+same distance in two steps. First travel a distance $$d_0 < d_1$$, then travel
+the rest of the distance. The apples can even be stored at $$d_0$$ while the
+friend does other things.
 
-Regardless of the strategy, all $$a_f$$ apples must make the full journey. We
-want to minimize the number of seperate trips these apples were split across.
-Since each car trip consumes at least 1 apple, the minimum number of trips
-required is:
+Taking these together, we can consider the problem 1 km at a time. Thus we
+just need to determine the most efficient way to transport $$a$$ apples 1 km.
 
-$$ n_{min} = \left\lceil \frac{a_f}{C - 1} \right\rceil $$
+Given that a 1 km trip can't be broken up and that each trip will cost exactly
+1 apple, we need to minimize the number of trips. To do this we fill up the car
+as much as possible (up to $$C$$ apples) for each trip, giving us:
 
-We want to maximum $$d$$ with:
+$$ n = \left\lceil \frac{a}{C} \right\rceil $$
 
+Where $$n$$ is the number of car trips, and the number of apples eaten.
+Afterwards, there will be $$a-n$$ apples left. Now we can calculate the number
+of apples at any distance with:
+
+$$ a_0 = A $$
+
+$$ a_{d+1} = a_d - \left\lceil \frac{a_d}{C} \right\rceil $$
+
+In our case, $$ a_0 = 3000 $$ gives $$ a_{1000} = 833 $$.
+
+We can simplify the calculation by realizing that while
+$$ \left\lceil \frac{a_{d+1}}{C} \right\rceil = \left\lceil \frac{a_d}{C} \right\rceil $$
+we don't need to set the apples down as the number of trips will remain the
+same.
+
+Thus we can travel as far as we can until the apples can be split across one
+fewer trips - when the total number of apples is the next lower
+multiple of $$C$$. The distance traveled is determined by the number of apples
+we have to spare and the number of trips:
+
+$$ d =
+  \begin{cases}
+    \frac{C}{\left\lceil \frac{a}{C} \right\rceil} \text{ if } a \mid C \\
+    \frac{a \mod C}{\left\lceil \frac{a}{C} \right\rceil} \text{ if } a \nmid C
+  \end{cases}
 $$
-\left\lceil \frac{a_f}{C - 1} \right\rceil d
-=
-\left\lceil \frac{a_f}{C - d} \right\rceil d
-$$
-
-This occurs when $$\frac{a_f}{C}$$ is an integer. In this case
-$$ \left\lceil \frac{a_f}{C} \right\rceil = n_{min} + 1 $$, and thus has the
-greatest leaway to increase $$d$$ while keeping
-$$ \left\lceil \frac{a_f}{C - d} \right\rceil = n_{min} $$.
-
-To be as efficient as possible, we want each car trip to be as full of apples
-as possible (because the cost is the same regardless of how many apples we
-transport). Thus as the start of each trip we want $$C$$ apples, giving
-$$ n = \left\lceil \frac{a_i}{C} \right\rceil $$.
-Setting $$ n = n_{min} $$ we have:
-
-$$ \frac{a_f}{C} = \left\lceil \frac{a_i}{C} \right\rceil -1 $$
-
-Thus our strategy is to keep drive to a distance until we lose $$C$$ apples, and
-store the apples there. Then we do the same again with the remaining apples, but
-we have to make one less trip each time, so we can save more apples. So at each
-stage we drive $$d = \frac{C}{\left\lceil \frac{a_i}{C} \right\rceil}$$.
 
 Because we only deal with integer distances, if we are required to go a
-non-integer distance $$d$$ we will store the apples at $$\lfloor d \rfloor$$ and
-$$\lceil d \rceil$$.
+non-integer distance $$d$$ we round up.
 
 Applying this strategy to our problem:
 
 * Stage 1
-  * Take 1000 apples at a time to $$d = \left\lfloor \frac{1000}{3}
-    \right\rfloor = 333$$
-  * On the last trip we can go to distance $$d = \left\lceil \frac{1000}{3}
+  * Take 1000 apples at a time to $$d = \left\lceil \frac{1000}{3}
     \right\rceil = 334$$
-  * We now have 2000 apples left, at a minimum distance of 333 km
+  * We now have 1998 apples left, at a distance of 334 km
 * Stage 2
-  * Take 1000 apples a further $$d = \frac{1000}{2}= 500$$
+  * Take 998 apples a further $$d = \frac{998}{2}= 499$$
   * We now have 1000 apples left at 833 km
 * Stage 3
   * Take 1000 apples until the end, which is $$d = 167$$ km away

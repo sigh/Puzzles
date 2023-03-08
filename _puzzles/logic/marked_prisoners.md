@@ -66,9 +66,14 @@ with the `X` mark will leave on the 100th day. The prisoners with the
 `X`. Since `O` is the only other option they will leave on the
 next day, the 101st day.
 
+</details>
+
 ### Extra Consideration
 
-#### What is the quantified piece of information that the guard provides that each prisoner did not already know?
+What is the piece of information that the guard provides that each prisoner did
+not already know?
+
+<details><summary></summary>
 
 Each prisoner already knew that there was at least one `X` marked
 prisoner. They also all knew they everyone else knew, and they everyone knew
