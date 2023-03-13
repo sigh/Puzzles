@@ -38,7 +38,8 @@ except one which is different. The odd marble may be either heavier or lighter.
 How do you determine which is the odd marble in the minimum number of
 weighings. You must also determine whether it is heavier or lighter.
 
-Note: This is difficult and the solution is not particularly intuitive.
+Note: This is difficult and the solution is not intuitive.
+It is included because it is a very wide-spread puzzle.
 
 <details><summary></summary>
 

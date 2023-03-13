@@ -1,5 +1,5 @@
 ---
-title: Planet Shadow
+title: Planet shadow
 layout: default
 ---
 
