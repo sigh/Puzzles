@@ -68,8 +68,8 @@ $$
 \Delta c = 2 \sqrt{2rh + h^2} - 2 r \arctan\left(\frac{\sqrt{2rh + h^2}}{r}\right)
 $$
 
-Using $$ r = 6378 \text{ km} $$ and $$ h = 0.001 \text{ m} $$:
+Using $$ r = 6378 \text{ km} $$ and $$ h = 0.001 \text{ km} $$:
 
-$$ \Delta c \approx 7.5 \times 10^{-7} \text{ m} = 0.75 \text{ mm} $$
+$$ \Delta c \approx 7.5 \times 10^{-7} \text{ km} = 0.75 \text{ mm} $$
 
 </details>
