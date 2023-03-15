@@ -8,11 +8,15 @@ cards. The assistant asks a member of the audience to draw 5 cards at random
 from the deck while the magician is blindfolded. The audience member hands the
 5 cards to the assistant who examines the cards, hands one of them back to the
 audience member, arranges the remaining four cards and places them face down
-into a neatly stacked pile on a table. The audience member is then allowed to
-move the pile on the table or change its orientation without disturbing the
-order of the cards in the pile. The magician now removes their blindfold, examines
-the four cards on the table and determines the card held by the audience member
-from inspecting the four card pile.
+into a neatly stacked pile on a table.
+
+The audience member is then allowed to move the pile on the table or change its
+orientation without disturbing the order of the cards in the pile. This is
+to ensure that the assistant can't control the position of the pile.
+
+The magician now removes their blindfold, examines the four cards on the table
+and determines the card held by the audience member from inspecting the four
+card pile.
 
 ## Playing cards
 
