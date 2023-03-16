@@ -9,7 +9,7 @@
     {% if current_category != '' %}
   </ul>
   {% endif %}
-  <li>{{ category | capitalize }}</li>
+  <li>{{ category | capitalize | replace: '_', ' '}}</li>
   {% assign current_category = category %}
   <ul>
     {% endif %}
