@@ -1,5 +1,5 @@
 ---
-title: Plane on an infinite conveyor belt
+title: Plane on a conveyor belt
 layout: default
 ---
 

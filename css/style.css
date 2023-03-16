@@ -208,6 +208,10 @@ strong {
   font-weight: bold;
 }
 
+em {
+  font-style: italic;
+}
+
 .wrapper {
   max-width: 650px;
   margin: 0 auto;
