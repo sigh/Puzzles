@@ -20,10 +20,14 @@ The bee travels 1000 km.
 
 ### Proof
 
+We don't need to calculate the bees back-and-forth path, which would involve
+calculating an infinite sum.
+Instead we can consider the bees journey as a whole.
+
 Let the length of the tunnel be $$ L $$, the speed of the trains be $$ v_t $$, and the
 speed of the bee be $$ v_b $$. Also set $$ t = 0 $$ when the trains enter the tunnel.
 
-The trains collide at the middle of the tunnel after travelling a distance of
+The trains collide at the middle of the tunnel after traveling a distance of
 $$ \frac{L}{2} $$. When this happens the time is:
 
 $$ t = \frac{\left(\frac{L}{2}\right)}{v_t} = \frac{L}{2 v_t} $$
