@@ -39,10 +39,10 @@ We require the distance to equal $$1L$$ for the caterpillar to reach the other
 side, hence we need some $$n$$ such that:
 
 $$
-\begin{aligned}
+\begin{align}
 L & < \frac{L}{100} \sum_{x=1}^n \frac{1}{x} \\
 100 & < \sum_{x=1}^n \frac{1}{x}
-\end{aligned}
+\end{align}
 $$
 
 $$\sum_{x=1}^n \frac{1}{x}$$ is the harmonic series, which diverges. Thus it

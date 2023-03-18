@@ -41,20 +41,20 @@ really was in the range $$ [x, x+dx] $$ is $$ dx $$. Therefore, Player 2 will wi
 accusing with probability:
 
 $$
-\begin{aligned}
+\begin{align}
 P_{accuse} & = \frac{L(x) dx}{L(x) dx + dx} \\
 & = 1 - \frac{1}{L(x) + 1}
-\end{aligned}
+\end{align}
 $$
 
 Player 2 should only accuse if:
 
 $$
-\begin{aligned}
+\begin{align}
 P_{accuse} & > P_{trust} \\
 1 - \frac{1}{L(x) + 1} & > 1 - x \\
 L(x) & > \frac{1}{x} - 1
-\end{aligned}
+\end{align}
 $$
 
 Now if Player 1 ever wants to report "near" $$ x $$ they should make sure that there
@@ -87,13 +87,13 @@ We require that the probability of lying for $$ x > N $$ be the same as the
 probability for rolling  $$ x < N $$:
 
 $$
-\begin{aligned}
+\begin{align}
 N & = \int_N^1 \left( \frac{1}{x} - 1 \right) dx \\
 & = \left[ \log x - x \right]_N^1 \\
 & = \log 1 - 1 - \log N + N \\
 \log N & = -1 \\
 N & = \frac{1}{e}
-\end{aligned}
+\end{align}
 $$
 
 Now we require that for rolls where  $$ x < N $$, Player 1 will lie, reporting
@@ -101,12 +101,12 @@ Now we require that for rolls where  $$ x < N $$, Player 1 will lie, reporting
  $$ y $$ in the range $$  [N, 1] = 1 $$:
 
 $$
-\begin{aligned}
+\begin{align}
 \int_N^1 c L(x) dx & = 1 \\
 c \int_N^1 \left( \frac{1}{x} - 1 \right) dx & = 1 \\
 c \frac{1}{e} &= 1 \\
 c & = e
-\end{aligned}
+\end{align}
 $$
 
 Giving the required probability distribution in the equation:

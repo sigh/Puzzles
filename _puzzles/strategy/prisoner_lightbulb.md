@@ -47,14 +47,14 @@ The probability $$p$$ for a previously uncounted prisoner to arrive between the
 collectors visits (given $$n$$ prisoners and $$x$$ uncounted prisoners) is:
 
 $$
-\begin{aligned}
+\begin{align}
 p = & 0 \times \text{probability the collector arrives } + \\
     & 1 \times \text{probability an uncounted prisoner arrives } + \\
     & p \times \text{probability a counted prisoner arrives } \\
 = & 0\frac{1}{n} + 1\frac{x}{n} + p\frac{n-x-1}{n} \\
 np = & x + p(n - x - 1) \\
 p = & \frac{x}{x+1}
-\end{aligned}
+\end{align}
 $$
 
 The expected time between visits for the collector is $$n$$ days. Thus the

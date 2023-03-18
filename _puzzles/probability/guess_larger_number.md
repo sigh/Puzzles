@@ -25,10 +25,10 @@ Suppose the distinct numbers are  $$ a $$ and $$ b $$ with $$ a < b $$ .
 The probability,  $$ P $$, of guessing correctly is:
 
 $$
-\begin{aligned}
+\begin{align}
 P & = \frac{1}{2}(1 - p(a)) + \frac{1}{2}p(b) \\
   & = \frac{1}{2} + \frac{1}{2} (p(b) - p(a))
-\end{aligned}
+\end{align}
 $$
 
 From this we can see that:

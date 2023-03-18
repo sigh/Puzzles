@@ -51,24 +51,24 @@ for some $$k > n$$:
 Thus we have:
 
 $$
-\begin{aligned}
+\begin{align}
 P_L(k) & = \frac{\frac{N!}{k!(N-k)!} (k-1)! (N-k)!}{N!} \\
 & = \frac{(k-1)!}{k!} \\
 & = \frac{1}{k}
-\end{aligned}
+\end{align}
 $$
 
 Therefore the probability, $$P$$, that the strategy succeeds is:
 
 $$
-\begin{aligned}
+\begin{align}
 P & = 1 - \sum_{k=n+1}^N P_L(k) \notag \\
 & = 1 - \sum_{k=n+1}^N \frac{1}{k} \\
 & = 1 - H_N + H_n \notag \\
   & \text{where }
     H_i = \sum_{k=1}^i \frac{1}{k} \text{ is the nth Harmonic number}
     \notag
-\end{aligned}
+\end{align}
 $$
 
 For $$N = 100$$ and $$n = 50$$ we get $$P \approx 0.3118$$.
@@ -86,14 +86,14 @@ $$ P(N) = 1 - \sum_{k=n+1}^N \frac{1}{k} $$
 As $$N \rightarrow \infty$$ we have:
 
 $$
-\begin{aligned}
+\begin{align}
 \lim_{N \rightarrow \infty} P(N) & =
   1 - \int_{n}^N \frac{1}{k} dp \\
 & = 1 - \left[ \log k \right]_{n}^N \\
 & = 1 - \log N - \log n \\
 & = 1 - \log \frac{N}{n} \\
 & = 1 + \log c
-\end{aligned}
+\end{align}
 $$
 
 For $$c = \frac{1}{2}$$ we have $$P \approx 0.3069 $$.
@@ -117,11 +117,11 @@ length $$k$$. We see that:
 Thus we have:
 
 $$
-\begin{aligned}
+\begin{align}
 P_l(k) & = \frac{\frac{(N-1)!}{(k-1)!(N-k)!} (k-1)! (N-k)!}{N!} \\
 & = \frac{(N-1)!}{N!} \\
 & = \frac{1}{N}
-\end{aligned}
+\end{align}
 $$
 
 Let $$P_l = \frac{1}{N}$$. We require that the probability of there being no

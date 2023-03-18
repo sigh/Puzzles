@@ -129,7 +129,7 @@ $$\{c_i \mid s \le i < n\}$$.
 There are at least $$s$$ cards smaller than $$c_s$$: $$\{c_i \mid 0 \le i < s\}$$.
 
 $$
-\begin{aligned}
+\begin{align}
 s \le & c_s \le N - (n - s) \\
 s \le & c_s \le n! - 1 + s \\
 0 \le & c_s - s \le n! - 1 \\
@@ -139,7 +139,7 @@ s \le & c_s \le n! - 1 + s \\
 0 \le &
   \left\lfloor \frac{c_s - s}{n} \right\rfloor <
   (n - 1)! \label{card_trick:bound}
-\end{aligned}
+\end{align}
 $$
 
 We can now see from the definition of $$p$$ that $$0 \le p < (n - 1)!$$ and
@@ -159,13 +159,13 @@ $$
 Using the definition of $$s$$ and $$s^\prime$$:
 
 $$
-\begin{aligned}
+\begin{align}
 c_s + s^\prime \equiv & s \pmod n \notag \\
 c_s - s \equiv & -s^\prime \pmod n \notag \\
 q n + r \equiv & -s^\prime \pmod n \notag \\
 r \equiv & -s^\prime \pmod n \notag \\
 r = & -s^\prime \mod n \text{ because } 0 \le r < n
-\end{aligned}
+\end{align}
 $$
 
 Rearranging to solve for $$q$$ we find that:
@@ -180,10 +180,10 @@ Substituting our calculated values for $$q$$, $$r$$ and using the equation for
 $$\chi$$:
 
 $$
-\begin{aligned}
+\begin{align}
 c_s - s = & p n + (-s^\prime \mod n) = \chi \notag \\
 c_s = & \chi + s
-\end{aligned}
+\end{align}
 $$
 
 Given this it is sufficient to show that $$k = s$$ is a
@@ -192,7 +192,7 @@ unique solution to the equation for $$c_s$$ used by the magician.
 Let $$k = s + \Delta$$:
 
 $$
-\begin{aligned}
+\begin{align}
 & c_{s+\Delta-1}^\prime < \chi + s + \Delta < c_{s+\Delta}^\prime \\
 \implies & c_{s+\Delta-1}^\prime < c_s + \Delta < c_{s+\Delta}^\prime \\
 \implies &
@@ -208,7 +208,7 @@ $$
     c_{i+1} & \text{ where } i \ge s
    \\
 & c_{i+j} \ge c_i + j \text{ where } 0 \le i+j < n
-\end{aligned}
+\end{align}
 $$
 
 Only the $$\Delta = 0$$ case is true and therefore $$k = s$$ is the unique solution.

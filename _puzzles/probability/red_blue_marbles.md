@@ -30,13 +30,13 @@ of picking a red marble. Suppose we have  $$ n \ge 1 $$  of each type of marble,
 the probability of finding a red marble will be:
 
 $$
-\begin{aligned}
+\begin{align}
 P
 & =
   \frac{1}{2}\left(1\right) + \frac{1}{2}\left(\frac{n-1}{n+(n-1)}\right) \\
 & = \frac{1}{2}\left(\frac{2 n - 1 + n -1}{2 n - 1}\right) \\
 & = \frac{1}{2}\left(\frac{3 n - 2}{2 n - 1}\right)
-\end{aligned}
+\end{align}
 $$
 
 For our problem we have  $$ n = 50 $$ ,  $$ P = 0.7475 $$ .
