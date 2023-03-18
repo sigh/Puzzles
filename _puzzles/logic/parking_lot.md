@@ -11,7 +11,8 @@ What is the number of the parking space that the car is occupying?
 
 The car in space **87**.
 
-This becomes more obvious if we turn the image upside down:
+This becomes more obvious if we turn the image upside down. The lots are
+actually numbered from 86-91:
 
 ![Parking lot upside-down]({{'images/parking_lot_upside_down.png' | relative_url}})
 

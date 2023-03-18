@@ -1,5 +1,5 @@
 ---
-title: Greedy, blood-thirsty pirates
+title: Greedy pirates
 layout: default
 ---
 
@@ -10,7 +10,7 @@ trying to divide up the treasure in the following way:
 * All pirates vote on the split, including the eldest
 * If at least half the pirates agree with the split, then it stands
 * If a majority of the pirate disagree the eldest pirate is fed to the
-        sharks, and the process continues with the second eldest pirate
+  sharks, and the process continues with the second eldest pirate
 
 Assume the pirates are perfectly logical and are trying to get as much gold as
 possible. They value their own lives more than any amount of gold. However, all

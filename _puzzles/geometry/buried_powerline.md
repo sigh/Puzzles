@@ -1,5 +1,5 @@
 ---
-title: Hidden powerline
+title: Buried powerline
 layout: default
 ---
 
@@ -25,7 +25,7 @@ This gives a length of $$ 2 + \frac{\sqrt{2}}{2} \approx 2.71 $$ km.
 We can improve this slightly by bringing in the two lines along the side until
 they meet at 120 degrees:
 
-![Hidden powerline]({{ 'images/hidden_powerline.png' | relative_url }})
+![Buried powerline]({{ 'images/buried_powerline_solution.png' | relative_url }})
 
 The short diagonal has a length of $$ a = \frac{\sqrt{2}}{2} $$.
 This gives a total length of
