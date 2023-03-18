@@ -1,5 +1,5 @@
 ---
-title: Weighing bags of marbles
+title: Marble bags
 layout: default
 ---
 

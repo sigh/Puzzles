@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Escape from the spinning room
+title: Spinning room
 ---
 
 You are trapped in a small square room. In the middle of each side of the room
