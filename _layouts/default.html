@@ -14,20 +14,21 @@
 </head>
 
 <body>
-  {% include nav.html %}
-  <div class="wrapper">
-    <section>
-      <div id="title">
-        <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        <p>{{ page.description }}</p>
-      </div>
-      <hr>
-      <div id="main_content">
-        {{ content }}
-      </div>
-
-    </section>
+  <div id="title">
+    <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+    <p>{{ page.description }}</p>
     <hr>
+  </div>
+  <div id="main" {% if page.inpage_nav %} class="inpage_nav" {% endif %}">
+    {% include nav.html %}
+    <div class="wrapper">
+      <section>
+        <div>
+          {{ content }}
+        </div>
+      </section>
+      <hr>
+    </div>
   </div>
 
   {% if site.google_analytics %}

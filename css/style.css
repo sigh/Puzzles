@@ -213,9 +213,13 @@ em {
 }
 
 .wrapper {
+  width: 100%;
   max-width: 650px;
   margin: 0 auto;
   position: relative;
+}
+
+.wrapper>* {
   padding: 0 20px;
 }
 
@@ -294,7 +298,7 @@ section {
 #title {
   border: 0;
   outline: none;
-  padding: 0 0 5px 0;
+  padding: 50px 0 5px 0;
 }
 
 #title h1 {

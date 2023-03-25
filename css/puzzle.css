@@ -1,25 +1,25 @@
-body {
+#main {
   display: flex;
   flex-wrap: nowrap;
 }
 
-.wrapper {
-  width: 100%;
-}
-
 nav {
   flex-basis: 250px;
-  margin-top: 30px;
   padding: 20px;
 }
 
 @media screen and (max-width: 800px) {
-  body {
+  #main {
     flex-direction: column-reverse;
   }
 
   nav {
-    margin-top: 0px;
+    margin: 0 auto;
+  }
+
+  #main.inpage_nav {
+    /* Put nav at the top */
+    flex-direction: column;
   }
 }
 
@@ -37,6 +37,11 @@ nav ul {
 
 nav ul>li {
   padding-left: 10px;
+}
+
+.to-top-button {
+  text-align: right;
+  display: block;
 }
 
 /* Highlight the current puzzle in the nav menu. */

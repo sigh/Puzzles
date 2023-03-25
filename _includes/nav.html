@@ -1,4 +1,6 @@
-<nav>
+<nav id="nav">
+  <li><a href="https://sigh.github.io">sigh.github.io</a></li>
+  <li><a href="{{ '/' | relative_url }}">Home</a></li>
   <li><a href="{{ '/all' | relative_url }}">All puzzles</a></li>
   <ul>
     {% for puzzle in site.puzzles %}
@@ -37,4 +39,5 @@
     <a href="{{ site.github.owner_url }}"><span>View on GitHub</span></a>
     {% endif %}
   </footer>
+  <hr>
 </nav>
