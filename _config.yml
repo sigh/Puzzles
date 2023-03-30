@@ -9,6 +9,8 @@ kramdown:
   toc_levels: 1..2
   parse_block_html: true
 
+google_analytics: UA-177463638-1
+
 exclude:
   - old
   - README
