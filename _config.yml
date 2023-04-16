@@ -9,7 +9,7 @@ kramdown:
   toc_levels: 1..2
   parse_block_html: true
 
-google_analytics: UA-177463638-1
+google_analytics: G-2SQH4BL89R
 
 exclude:
   - old
